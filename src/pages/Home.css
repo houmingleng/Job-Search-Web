@@ -1,0 +1,29 @@
+.banner {
+  max-width: 100%;
+  opacity: .5;
+}
+
+.title {
+  font-family: "Times New Roman", sans-serif;
+  font-size: 3rem;
+}
+
+@media screen and (max-width: 1000px){
+  .title {
+    font-size: 2rem;
+  }
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url("../assets/images/pexels-fauxels-3184465.jpg") top left/cover no-repeat;
+  height: 500px;
+  width: 100%;
+  padding: 50px;
+}
+
+.searchbox {
+  width: 500px;
+}

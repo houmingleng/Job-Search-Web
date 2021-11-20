@@ -1,0 +1,54 @@
+@import "~normalize.css/normalize.css";
+
+body {
+  background: #f0f2f5;
+}
+
+#root {
+  position: relative;
+}
+
+.loading-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.login-form {
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.login-form-button {
+  width: 100%;
+}
+
+
+
+img {
+  max-width: 100%;
+}
+
+.main {
+  background: #fff;
+  padding: 2rem 10rem;
+  min-height: 80vh;
+}
+
+@media screen and (max-width: 1000px){
+  .main {
+    padding: 2rem;
+  }
+}
+
+.require-mark {
+  display: inline-block;
+  margin-right: 4px;
+  color: #ff4d4f;
+  font-size: 14px;
+  font-family: SimSun, sans-serif;
+  line-height: 1;
+  content: '*';
+}
