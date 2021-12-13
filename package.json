@@ -28,7 +28,7 @@
     "customize-cra": "1.0.0",
     "nodemon": "2.0.15",
     "react-app-rewired": "2.1.8",
-    "react-scripts": "4.0.3"
+    "react-scripts": "^4.0.3"
   },
   "scripts": {
     "start": "node server/server.js",
